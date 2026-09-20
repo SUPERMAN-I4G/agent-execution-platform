@@ -8,6 +8,14 @@ This `V2` branch contains the V2 platform. The original release is preserved sep
 
 The platform provisions a wallet for each `(API key, agent_id)` pair, simulates every action, submits it through an ERC-4337 bundler, and sponsors UserOperation gas through a VerifyingPaymaster. Testnet API users are not charged an execution fee.
 
+## Repositories
+
+- **API and agent integration pack:** this repository, deployed separately from the website.
+- **Company website:** [ardent-website](https://github.com/ardentairesearch/ardent-website), deployed at [ardentresearch.xyz](https://ardentresearch.xyz).
+- **Testnet documentation:** [ardent-testnet-docs](https://github.com/ardentairesearch/ardent-testnet-docs), published at [docs.ardentresearch.xyz](https://docs.ardentresearch.xyz).
+
+The CLI, MCP tools, and OpenAPI bundle remain at `docs/agent-integration/` in this API repository. Existing installer and self-update URLs depend on that path; website and GitBook pages are maintained only in their respective repositories.
+
 ## What It Includes
 
 - Public, self-service API-key generation with one-time secret disclosure
