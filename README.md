@@ -1,12 +1,6 @@
-# Ardent Research Agent Execution Platform
+# Ardent Research Agent Execution Platform By [𝐆𝐄𝐄𝐊𓃵](https://github.com/SUPERMAN-I4G)
 
 **Version 1.0** · Rust · ERC-4337 v0.9 · Multi-chain
-
-Official backend for **Ardent Research** — an R&D lab building on-chain execution infrastructure for AI agents.
-
-- Website: [ardentresearch.xyz](https://ardentresearch.xyz)
-- Documentation: [docs.ardentresearch.xyz](https://docs.ardentresearch.xyz)
-- API: [api.ardentresearch.xyz](https://api.ardentresearch.xyz)
 
 A production-hardened Rust backend that enables **AI agents to execute on-chain transactions without owning wallets**. Ardent auto-provisions **ERC-4337 smart wallets** per agent, simulates transactions, calculates costs, verifies payment via the **x402 protocol** with **real on-chain ERC-20 verification**, then submits transactions through a relayer network with paymaster-sponsored gas.
 
