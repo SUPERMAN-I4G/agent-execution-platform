@@ -1,4 +1,4 @@
-# Ardent Research Agent Execution Platform By [𝐆𝐄𝐄𝐊𓃵](https://github.com/SUPERMAN-I4G)
+# Ardent - Agent Execution Platform By [𝐆𝐄𝐄𝐊𓃵](https://github.com/SUPERMAN-I4G)
 
 **Version 1.0** · Rust · ERC-4337 v0.9 · Multi-chain
 
@@ -16,7 +16,7 @@ A production-hardened Rust backend that enables **AI agents to execute on-chain 
 
 ## Table of Contents
 
-- [About Ardent Research](#about-ardent-research)
+- [About](#about)
 - [High-Level Architecture](#high-level-architecture)
 - [Key Design Decisions](#key-design-decisions)
 - [Execution Path](#execution-path)
@@ -39,9 +39,7 @@ A production-hardened Rust backend that enables **AI agents to execute on-chain 
 
 ---
 
-## About Ardent Research
-
-Ardent Research builds infrastructure for AI agents that need to reason about, prepare, simulate, and execute blockchain transactions safely. This repository contains the core execution service behind Ardent's hosted API, developer CLI, MCP tools, OpenAPI integration pack, and typed protocol actions across supported chains.
+## About
 
 The platform is designed around one principle: agents should be able to act on-chain without directly holding private keys, guessing calldata, or blindly broadcasting transactions. Ardent handles wallet provisioning, simulation, gas/payment flows, protocol-specific action building, and transaction lifecycle tracking.
 
