@@ -1,8 +1,6 @@
 # Agent Execution Platform V2 (Testnet)
 
-An open-source testnet backend from **Ardent AI Research** for giving AI agents persistent ERC-4337 smart wallets and safely executing onchain actions.
-
-This repository is the deployed Testnet and a public preview of the execution research behind **Jusso**, Ardent AI Research's first product. Jusso is a new generation of autonomous infrastructure for onchain action, and its Beta is coming soon on Base. The existing `ardent` CLI and API identifiers remain unchanged for Testnet compatibility.
+An open-source testnet backend (by [𝐆𝐄𝐄𝐊𓃵](https://github.com/SUPERMAN-I4G)) for giving AI agents persistent ERC-4337 smart wallets and safely executing onchain actions.
 
 This `V2` branch contains the V2 platform. The original release is preserved separately on the `V1` branch.
 
@@ -10,11 +8,7 @@ The platform provisions a wallet for each `(API key, agent_id)` pair, simulates 
 
 ## Repositories
 
-- **API and agent integration pack:** this repository, deployed separately from the website.
-- **Company website:** [ardent-website](https://github.com/ardentairesearch/ardent-website), deployed at [ardentresearch.xyz](https://ardentresearch.xyz).
-- **Testnet documentation:** [ardent-testnet-docs](https://github.com/ardentairesearch/ardent-testnet-docs), published at [docs.ardentresearch.xyz](https://docs.ardentresearch.xyz).
-
-The CLI, MCP tools, and OpenAPI bundle remain at `docs/agent-integration/` in this API repository. Existing installer and self-update URLs depend on that path; website and GitBook pages are maintained only in their respective repositories.
+The CLI, MCP tools, and OpenAPI bundle remain at `docs/agent-integration/` in this API repository. Existing installer and self-update URLs depend on that path.
 
 ## What It Includes
 
